@@ -33,7 +33,11 @@ end
 def hit?
   prompt_user
   user_input = get_user_input
+  card_total = 0
   
+  if user_input == "h"
+    deal_card
+  end
     
 end
 
