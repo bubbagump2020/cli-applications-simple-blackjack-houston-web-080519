@@ -54,23 +54,11 @@ end
 #####################################################
 # get every test to pass before coding runner below #
 #####################################################
-=begin
+
 def runner
   welcome
   initial_round
-  user_input = ""
-  card_total = 0
-  
-  until card_total > 22
-    hit?(card_total)
-    if user_input = "s"
-      hit?(card_total)
-    else
-      deal_card
-      card_total = card_total + deal_card
-    end
-    
-  end
+ 
     
 end
-=end  
+
